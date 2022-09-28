@@ -95,7 +95,7 @@ app.get('/auth/callback', (request, response) => {
       accessToken: conn.accessToken
     };
     // Redirect to app main page
-    return response.redirect('/index.html');
+    return response.redirect('/');
   });
 });
 
