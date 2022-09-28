@@ -36,9 +36,10 @@ app.use(
 );
 
 // Serve HTML pages under root directory
-app.use('/', express.static(path.join(__dirname, '/public')));
+// /app/server/public/index.html
+app.use(express.static(path.join(__dirname, '../public')));
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname+'/public/index.html'))
+  res.sendFile(path.join(__dirname+'../public/index.html'))
 })
 
 /**
