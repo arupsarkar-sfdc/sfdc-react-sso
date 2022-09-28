@@ -41,7 +41,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pozil/salesforce-react-integration"
+    "url": "https://github.com/arupsarkar-sfdc/sfdc-react-sso"
   },
   "engines": {
     "node": ">= 14.17.0"
