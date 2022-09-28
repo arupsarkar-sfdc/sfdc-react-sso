@@ -18,26 +18,31 @@ The source code of this app is structured in the following way:
 
 If you are building a React app with LDS, consider using the [React LDS base components](https://react.lightningdesignsystem.com/).
 
-## Installation
+##### `Prerequisite`: Please install Node in your local machine, if it is not already installed.
+[Node](https://nodejs.org/en/)
+
+## Installation (Run it in local machine)
+
+
 
 1. Create a [Connected App](https://help.salesforce.com/articleView?id=connected_app_create.htm) in Salesforce.
 
-1. Create a `.env` file in the root directory of this project and add this content (make sure to replace the values):
+2. Create a `.env` file in the root directory of this project and add this content (make sure to replace the values):
 
    ```
    loginUrl='https://login.salesforce.com'
    callbackUrl='http://localhost:8080/auth/callback'
    consumerKey='YOUR_CLIENT_KEY'
    consumerSecret='YOUR_CLIENT_SECRET'
-   apiVersion='53.0'
+   apiVersion='55.0'
 
    isHttps='false'
    sessionSecretKey='A_SECRET_STRING'
    ```
 
-1. Run `npm run build` to build the app.
+3. Run `npm run build` to build the app.
 
-1. Run `npm start` to start the app.
+4. Run `npm start` to start the app.
 
 ## Screenshots
 

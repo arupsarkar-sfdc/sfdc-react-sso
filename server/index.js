@@ -4,6 +4,7 @@ const path = require('path'),
   session = require('express-session'),
   jsforce = require('jsforce');
 
+console.log('consumer key', process.env.consumerKey)  
 // Load and check config
 require('dotenv').config();
 if (!(process.env.loginUrl && process.env.consumerKey && process.env.consumerSecret && process.env.callbackUrl && process.env.apiVersion && process.env.sessionSecretKey)) {
